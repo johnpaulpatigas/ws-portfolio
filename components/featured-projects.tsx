@@ -38,7 +38,7 @@ export function FeaturedProjects() {
           ))}
         </div>
       </div>
-      <Button asChild className="mt-8">
+      <Button className="mt-8">
         <Link href="/projects">View All Projects</Link>
       </Button>
     </div>

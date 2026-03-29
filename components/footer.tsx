@@ -13,17 +13,17 @@ export function Footer() {
     <footer className="flex flex-col items-center gap-4 py-4">
       <Separator />
       <div className="flex justify-center gap-4">
-        <Button asChild variant="ghost" size="icon">
+        <Button variant="ghost" size="icon">
           <Link href="https://github.com" target="_blank">
             <HugeiconsIcon icon={GithubIcon} />
           </Link>
         </Button>
-        <Button asChild variant="ghost" size="icon">
+        <Button variant="ghost" size="icon">
           <Link href="https://linkedin.com" target="_blank">
             <HugeiconsIcon icon={LinkedinIcon} />
           </Link>
         </Button>
-        <Button asChild variant="ghost" size="icon">
+        <Button variant="ghost" size="icon">
           <Link href="https://twitter.com" target="_blank">
             <HugeiconsIcon icon={TwitterIcon} />
           </Link>
