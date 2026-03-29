@@ -11,13 +11,13 @@ export function Navigation() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/projects", label: "Projects" },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (
     <nav className="flex gap-4">
       {links.map((link) => (
         <Button
-          aschild
           key={link.href}
           variant={pathname === link.href ? "secondary" : "ghost"}
         >
