@@ -8,9 +8,10 @@ export const projects = [
       "Developed a React-based frontend to view and manage attendance logs.",
     ],
     technologies: ["ESP32", "React.js", "Supabase", "C/C++"],
-    link: "#",
+    category: "Embedded Systems",
+    link: "https://github.com/johnpaulpatigas/benthel-attendance",
     status: "Completed",
-    sourceCode: "#",
+    sourceCode: "https://github.com/johnpaulpatigas/benthel-attendance",
   },
   {
     title: "Portfolio Website",
@@ -18,9 +19,10 @@ export const projects = [
       "This very portfolio website, built with Next.js and shadcn/ui.",
     ],
     technologies: ["Next.js", "TypeScript", "shadcn/ui", "TailwindCSS"],
+    category: "Web Development",
     link: "/",
     status: "In Progress",
-    sourceCode: "#",
+    sourceCode: "https://github.com/johnpaulpatigas/ws-portfolio",
   },
 ];
 

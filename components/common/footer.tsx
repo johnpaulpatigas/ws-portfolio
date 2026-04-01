@@ -2,6 +2,7 @@ import { HugeiconsIcon } from "@hugeicons/react";
 import {
   GithubIcon,
   LinkedinIcon,
+  MailIcon,
   TwitterIcon,
 } from "@hugeicons/core-free-icons";
 import { Button } from "@/components/ui/button";
@@ -10,11 +11,11 @@ import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
   return (
-    <footer className="flex flex-col items-center gap-4 py-4">
+    <footer className="flex flex-col items-center gap-4 py-4 mt-auto">
       <Separator />
       <div className="flex justify-center gap-4">
         <Button variant="ghost" size="icon">
-          <Link href="https://github.com" target="_blank">
+          <Link href="https://github.com/johnpaulpatigas" target="_blank">
             <HugeiconsIcon icon={GithubIcon} />
           </Link>
         </Button>
@@ -24,8 +25,8 @@ export function Footer() {
           </Link>
         </Button>
         <Button variant="ghost" size="icon">
-          <Link href="https://twitter.com" target="_blank">
-            <HugeiconsIcon icon={TwitterIcon} />
+          <Link href="mailto:johnpaulpatigas@gmail.com">
+            <HugeiconsIcon icon={MailIcon} />
           </Link>
         </Button>
       </div>
