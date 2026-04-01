@@ -7,7 +7,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "./ui/card";
+} from "@/components/ui/card";
 
 export function FeaturedProjects() {
   const featuredProjects = projects.slice(0, 3);

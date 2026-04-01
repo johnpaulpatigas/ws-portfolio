@@ -4,9 +4,9 @@ import {
   LinkedinIcon,
   TwitterIcon,
 } from "@hugeicons/core-free-icons";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Separator } from "./ui/separator";
+import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
   return (
